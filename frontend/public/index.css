@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spatan', sans-serif;
+}
+
+
+
+#header {
+    background-color: black;
+    height: 5%;
+    padding: 0.5rem 1rem;
+    position: relative;
+    display: flex;
+
+}
+
+.logo span {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #e3e6f3d0;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    
+
+ 
+}
+
+.logo img {
+    width: auto;
+    height: auto;
+    max-width: 3%;
+    max-width: 3%;
+}
+ 
+
+
