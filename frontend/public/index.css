@@ -1,40 +1,114 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Spatan', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spatan", sans-serif;
 }
 
-
+.margin1 {
+    margin: 10px 30px;
+}
 
 #header {
-    background-color: black;
-    width: auto;
-    height: 5%;
-    padding: 0.5rem 1rem;
-    position: relative;
-    display: flex;
-
+  background-color: #0c0c0c;
+  width: auto;
+  height: 5%;
+  padding: 0.5rem 1rem;
+  position: relative;
+  display: flex;
 }
 
 .logo span {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-    color: #e3e6f3d0;
-    padding: 0.5rem 1rem;
-    position: absolute;
-    
+  font-size: 18px;
+  font-weight: 700;
+  color: #e3e6f3d0;
+  padding: 0.5rem 1rem;
+  position: relative;
+  bottom: 0.5rem;
 
- 
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 .logo img {
-    width: auto;
-    height: auto;
-    max-width: 3%;
-    max-width: 3%;
+  width: auto;
+  height: auto;
+  max-width: 3.2%;
 }
- 
 
+#product0 {
+  text-align: center;
+}
+.i-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
 
+#product0 .pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+#product0 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product0 .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#product0 .pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+
+#product0 .pro .des span {
+  color: #666063;
+  font-size: 12px;
+}
+
+#product0 .pro .des h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+#product0 .pro .des i {
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+
+#product0 .pro .des h4 {
+  padding-top: 7px;
+  color: #112d2b;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#product0 .pro .des .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  color: #088178;
+  font-size: 14px;
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}

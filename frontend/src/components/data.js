@@ -51,7 +51,7 @@ const data = {
       _id: "5",
       name: "Dream coloured classic shirt",
       category: "Shirts",
-      image: "../img/products/f5.jpg",
+      image: {img},
       price: "250",
       brand: "Baetiba",
       stars: 4.7,
